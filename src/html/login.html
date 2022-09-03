@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../scss/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar mb-3 shadow navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Course Assignment</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid rounded" style="width: 40%;">
+            <div class="card px-5 pt-3 pb-4">
+                <form>
+                    <div class="form-check mb-3">
+                        <label for="InputEmail" class="form-label">Email Address</label>
+                        <input id="InputEmail" class="form-control" type="email" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address
+                        </div>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <label for="PasswordInput" class="form-label">Passowrd</label>
+                        <input type="password" class="form-control" id="PasswordInput" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid password
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+
+<!--
+    <div class="card col-sm-4 px-5 pt-5 pb-5 rounded">
+                <div class="form-outline">
+                    <label class="form-label">Login</label>
+                </div>
+                <div class="form-outline mb-4"">
+                    <input type="email" id="email-login" class="form-control" placeholder="Email Address"/>
+                </div>
+                <div class="form-outline mb-4"">
+                    <input type="password" id="password-login" class="form-control" placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-primary btn-block mb-4"">Sign in</button>
+            </div>
+-->

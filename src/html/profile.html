@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../scss/styles.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar shadow navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Course Assignment</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <!--Profile-->
+            <div class="col-md-5 px-5 pt-3 pb-4 shadow overflow-hidden"> 
+                <div class="profile mr-3">
+                    <img src="../../image1.png" alt="profile-image" class="rounded mb-2 img-thumbnail">
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        About me
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <label class="list-group-item"><b>Name:</b> Ola Nordmann</label>
+                        <label class="list-group-item"><b>Age:</b> 25 Years old</label>
+                        <label class="list-group-item"><b>Location:</b> Norway</label>
+                        <label class="list-group-item"><b>Facts:</b> Owner of cool sunglasses</label>
+                    </ul>
+                </div>
+                <hr class="border border-secondary border-1 opacity-25">
+                <div class="card">
+                    <div class="card-header">
+                        Contacts
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Bob</li>
+                        <li class="list-group-item">Lorum Ipsum</li>
+                        <li class="list-group-item">Legolas</li>
+                        <li class="list-group-item">Bill Gates</li>
+                        <li class="list-group-item">Booter Strapper</li>
+                    </ul>
+                </div>
+
+                <hr class="border border-primary border-2 opacity-25">
+
+                <!--Create a post-->
+                <h4>Create a Post!</h3>
+                <div class="form-container container-md mb-3">   
+                    <div class="mb-3"">
+                        <label for="title" class="form-label">Enter title</label>
+                        <input type="text" class="form-control" id="title" placeholder="Enter your title here...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="text" class="form-label">Write post here</label>
+                        <textarea class="form-control" id="text" rows="5"></textarea>
+                    </div>
+                    <button class="btn btn-primary">Post!</button>
+                </div>
+            </div>
+
+            <!--Recent Posts-->
+            <div class="col">
+                <h2 class="text-center">Recent Posts</h2>
+                <hr class="border border-primary border-2 opacity-25">
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Lorum Ipsum</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Lorum Ipsum</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Lorum Ipsum</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Lorum Ipsum</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
