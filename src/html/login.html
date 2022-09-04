@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to your profile">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../scss/styles.css">
     <title>Login</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar mb-3 shadow navbar-expand-lg bg-light">
@@ -37,29 +40,27 @@
     </header>
 
     <main>
-        <div class="container-fluid rounded" style="width: 40%;">
-            <div class="card px-5 pt-3 pb-4">
-                <form>
-                    <div class="form-check mb-3">
-                        <label for="InputEmail" class="form-label">Email Address</label>
-                        <input id="InputEmail" class="form-control" type="email" required>
-                        <div class="invalid-feedback">
-                            Please enter a valid email address
-                        </div>
+        <div class="card px-5 pt-3 pb-4" style="width: auto; max-width: 500px;">
+            <form>
+                <div class="form-check mb-3">
+                    <label for="InputEmail" class="form-label">Email Address</label>
+                    <input id="InputEmail" class="form-control" type="email" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid email address
                     </div>
+                </div>
 
-                    <div class="form-check mb-3">
-                        <label for="PasswordInput" class="form-label">Passowrd</label>
-                        <input type="password" class="form-control" id="PasswordInput" required>
-                        <div class="invalid-feedback">
-                            Please enter a valid password
-                        </div>
+                <div class="form-check mb-3">
+                    <label for="PasswordInput" class="form-label">Passowrd</label>
+                    <input type="password" class="form-control" id="PasswordInput" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid password
                     </div>
-                    <div class="form-check">
-                        <button type="submit" class="btn btn-primary" formaction="/src/html/profile.html" >Login</button>
-                    </div>
-                </form>
-            </div>
+                </div>
+                <div class="form-check">
+                    <button type="submit" class="btn btn-primary" formaction="/src/html/profile.html">Login</button>
+                </div>
+            </form>
         </div>
     </main>
 
@@ -68,4 +69,5 @@
     </footer>
 
 </body>
+
 </html>
