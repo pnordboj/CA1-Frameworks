@@ -1,1 +1,11 @@
-/*# sourceMappingURL=styles.css.map */
+.bg-light {
+  color: #dad6d6;
+}
+
+body {
+  background-color: #d5d6da;
+}
+
+.border-primary {
+  color: #b6c1db !important;
+}/*# sourceMappingURL=styles.css.map */
